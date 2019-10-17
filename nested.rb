@@ -125,4 +125,5 @@ def adding_to_dennis
         }
      }
          [:dennis_ritchie][:languages][1] = "assembly"
+         [:dennis_ritchie][:languages][1]
 end
