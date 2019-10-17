@@ -86,7 +86,7 @@ def adding_matz
     new_response = {
    :yukihiro_matsumoto => {
    :known_for => "Ruby",
-   :languages => ["LISP", "C"]}.merge(response)
+   :languages => ["LISP", "C"]}.merge(programmer_hash)
 end
 
 def changing_alan
