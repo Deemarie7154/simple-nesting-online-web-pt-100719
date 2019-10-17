@@ -83,7 +83,9 @@ def adding_matz
         }
      }
 
-    new_response = {new: 'new_value'}.merge(response
+    new_response = { :yukihiro_matsumoto => {
+   :known_for => "Ruby",
+   :languages => ["LISP", "C"]}.merge(response
 end
 
 def changing_alan
